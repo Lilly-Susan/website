@@ -1,0 +1,274 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+body{
+    background: #f3f5f9;
+}
+.wraper{
+    display: flex;
+    position: relative;
+    background-color: #f3f5f9;
+}
+.wraper .sidebar{
+    
+    width: 300px;
+    height: 100%;
+    background-color: blue;
+    padding: 30px 0;
+    height: 900px;
+}
+.wraper .sidebar h2{
+    margin-left: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.wraper .sidebar ul li{
+    padding: 10px;
+    list-style: none;
+   }
+.wraper .sidebar ul li a{
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+}
+.wraper .sidebar ul li a .fas{
+    width: 25px;
+} 
+.wraper .main-content{
+    width: 100%;
+    
+}
+.wraper .main-content .header{
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    
+}
+
+.wraper .main-content .header  a{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.header ul{
+    float: right;
+}
+.header ul li{
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    color: #000;
+}
+.header ul li .ic{
+    font-size: 18px;
+}
+.content{
+    display: flex;
+}
+.content ul li{
+    list-style: none;
+    float: left;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: rgb(70, 102, 210);
+    padding: 5px;
+}
+.content ul li:last-child{
+    color: #000;
+}
+.content ul li .ico{
+    color: rgb(70, 102, 210); 
+}
+
+.content1{
+    display: flex;
+}
+.content1 ul li{
+    list-style: none;
+    float: left;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #000;
+    padding: 5px;
+}
+.content1 ul li:nth-child(2){
+    color: rgb(70, 102, 210);
+    text-decoration: underline;
+}
+.content1 ul li:last-child{
+    font-size: 12px;
+    text-transform: none;
+}
+.head {
+    background-color: #fff;
+    width: 500px;
+    padding: 5px;
+    margin-left: 15px;
+    height: 300px;
+    margin-top: 10px;
+}
+.axcess{
+    display: flex;
+}
+.system a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid lightgray;
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.sysblu ul li{
+    list-style: none;
+    color: rgb(70, 102, 210);
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.sysblu1 ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.head1 {
+    background-color: #fff;
+    width: 500px;
+    padding: 5px;
+    margin-left: 15px;
+    height: 300px;
+    margin-top: 10px;
+    
+}
+.system1 a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid lightgray;
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.app a{
+    display: block;
+    padding-top: 10px;
+    font-size: 12px;
+    color: rgb(70, 102, 210);
+}
+.head2 {
+    background-color: #fff;
+    width: 500px;
+    padding: 5px;
+    margin-left: 15px;
+    height: 300px;
+    margin-top: 10px;
+    
+}
+.system1 a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid lightgray;
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.main{
+    display: flex;
+}
+.system2 a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid lightgray;
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.app1 p{
+  font-size: 12px;
+  margin-top: 10px;
+  display: flex;
+}
+.app1 a{
+    font-size: 12px;
+    display: block;
+    color: rgb(70, 102, 210);
+    text-decoration: none;
+    margin-top: 10px;
+    border-bottom: 2px solid lightgray;
+}
+.app1 a pre{
+    color: #000;
+}
+.app1 ion-icon{
+    color: rgb(70, 102, 210);;
+}
+.main1{
+    display: flex;
+}
+.head3 {
+    background-color: #fff;
+    width: 500px;
+    padding: 5px;
+    margin-left: 15px;
+    height: 300px;
+    margin-top: 10px;
+    
+}
+.system3 a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid lightgray;
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.code p{
+    font-size: 12px;
+}
+.code ion-icon{
+    color: rgb(70, 102, 210);;
+}
+.text p{
+    font-size: 15px;
+    margin-left: 35px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.application{
+    display: flex;
+}
+.appli{
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    margin-left: 35px;
+    display: flex;
+}
+.appli1{
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    margin-left: 35px;
+    display: flex;
+}
+
+
