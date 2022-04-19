@@ -241,6 +241,11 @@ body{
     padding-left: 10px;
     font-weight: 600;
 }
+.system3 a ion-icon{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
 .code p{
     font-size: 12px;
 }
@@ -253,22 +258,99 @@ body{
     text-transform: capitalize;
     font-weight: 600;
 }
-.application{
-    display: flex;
-}
+    
 .appli{
     background-color: #fff;
     width: 500px;
     height: 300px;
     margin-left: 35px;
-    display: flex;
+    
 }
 .appli1{
     background-color: #fff;
     width: 500px;
     height: 300px;
     margin-left: 35px;
-    display: flex;
+    
 }
+.app3{
+    width:1050px;
+    height: 200px;
+    background-color: #fff;
+    margin-left: 35px;
+}
+.con p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.con a{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.app4{
+    width: 1050px;
+    height: 400px;
+    background-color: #fff;
+    margin-left: 35px;
+}
+.app4 p{
+    font-size: 12px;
+    margin-left: 10px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.app4 a{
+    font-size: 12px;
+    font-weight: 600;
+}
+.table{
+    font-size: 12px;
+}
+.table th{
+    font-weight: 500;
+    color: darkgrey;
+    border-bottom: none;
+}
+.table td{
+    border-bottom: 1px solid lightgray;
+}
+.table bor{
+    border-bottom: none;
+}
+.app5{
+    width: 1050px;
+    height: 600px;
+    background-color: #fff;
+    margin-left: 35px;
+}
+.con1 p{
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.na p{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.na input{
+    width: 440px;
+    margin-left:10px 
 
+}
+.na ::placeholder{
+    font-size: 12px;
+}
+.na textarea{
+    width: 440px;
+    font-size: 12px;
+    height: 70px;
+    margin-left: 10px;
+}
+.na button{
+    margin-left: 10px;
+}
 
